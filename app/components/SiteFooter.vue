@@ -51,7 +51,7 @@ const { siteIcp, version } = configPublic;
 
 const linkData = {
   github: "https://github.com/imsyy/site-status",
-  home: "localhost",
+  home: "http://localhost",
   email: "mailto:username@localhost",
 };
 </script>
