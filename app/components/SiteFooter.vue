@@ -10,7 +10,6 @@
         @click="jumpLink(item)"
       >
         <template #icon>
-          <Icon :name="`icon:${key}`" />
         </template>
       </n-button>
     </n-flex>
@@ -32,7 +31,6 @@
       </n-p>
       <n-p depth="3">
         Copyright &copy; 2020 - {{ new Date().getFullYear() }}
-        <n-text depth="3" @click="jumpLink(linkData.home)"> IMSYY </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
