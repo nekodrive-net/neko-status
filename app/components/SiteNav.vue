@@ -43,19 +43,6 @@
           </n-button>
         </n-popselect>
         <!-- 菜单 -->
-        <n-dropdown trigger="click" :options="navMenu">
-          <n-button
-            :focusable="false"
-            :color="iconColor"
-            size="large"
-            quaternary
-            circle
-          >
-            <template #icon>
-              <Icon name="icon:menu" />
-            </template>
-          </n-button>
-        </n-dropdown>
       </n-flex>
     </div>
   </nav>
